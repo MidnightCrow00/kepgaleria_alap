@@ -24,6 +24,7 @@
     position: absolute;
     right: 10px;
     top: 10px;
+    cursor: grab;
 }
 .nagykep {
     border: 1px solid gray; 
