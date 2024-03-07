@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.galeria .kep {
+   flex: 0 0 150px;
+}
+.galeria img {
+  width: 100%;
+}
+.zar{
+    position: relative;
+}
+.zar>button{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.nagykep {
+    border: 1px solid gray; 
+    border-radius: 10px;
+    padding: 10px;
+
+    background-color: antiquewhite;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+}
+.rejtett{
+    display: none;
+}
+
+.nagykep img {
+    width: 80%;
+    max-width: 80%;
+}
+
